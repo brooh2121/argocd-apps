@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: ghcr.io/brooh2121/myapp:latest  # Этот тег будет обновляться CI
+        image: ghcr.io/brooh2121/github-actions-pipeline/myapp:c84c5a5a57696a11572b4b85ab0fa7db7423f154
         ports:
         - containerPort: 8080
 ---
