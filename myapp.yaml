@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: ghcr.io/brooh2121/github-actions-pipeline/myapp:b29372c91b61d5cc75a6fe25fa61705c72b7b7a9
+        image: ghcr.io/brooh2121/github-actions-pipeline/myapp:f277275b40e3bcf87117e5c1e14a0ece9dceeebc
         ports:
         - containerPort: 8080
 ---
